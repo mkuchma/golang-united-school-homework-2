@@ -13,9 +13,9 @@ import "math"
 type Side int
 
 const (
-	Circle   Side = 0
-	Triangle Side = 3
-	Square   Side = 4
+	SidesCircle   Side = 0
+	SidesTriangle Side = 3
+	SidesSquare   Side = 4
 )
 
 func CalcSquare(sideLen float64, sidesNum Side) float64 {
